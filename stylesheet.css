@@ -10,3 +10,31 @@ div#parent {
     height: 995px;
     background-color: #E9E9E9;
 }
+
+div#parent section { /*temporary: so i can see the borders*/
+    border: 1px solid black;
+}
+
+section.header {
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .right-side {
+        img {
+            height: 918px;
+        }
+    }
+}
+
+/* move to heading-styles.css if necessary*/
+h1 {
+    color: #cc0000;
+    font-size: 24px;
+    font-family: "Gotham Book", sans-serif;
+}
