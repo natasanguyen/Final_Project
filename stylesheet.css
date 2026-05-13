@@ -1,7 +1,5 @@
 body {
-    font-family: "Messy_Memoir" /*im fixing this in a sec*/
-    /*I did not check if these fonts were copyrighted.
-    I will check later if I continue to use this code with these fonts*/
+    font-family: "Gotham", "Messy Memoir", "League Spartan", Arial, Helvetica, sans-serif;
     background-color: #292626;
     margin: 0
 }
