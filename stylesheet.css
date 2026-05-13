@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Messy_Memoir"
+    /*I did not check if these fonts were copyrighted.
+    I will check later if I continue to use this code with these fonts*/
     background-color: #292626;
     margin: 0
 }
@@ -8,5 +10,5 @@ div#parent {
     border: 2px solid red;
     width: 1775px;
     height: 995px;
-    background-color: #fff;
+    background-color: #E9E9E9;
 }
