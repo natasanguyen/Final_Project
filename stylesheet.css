@@ -7,7 +7,6 @@ body {
 div#parent {
     border: 2px solid red;
     width: 1755px;
-    /*height: 995px;*/
     background-color: #E9E9E9;
 }
 
@@ -21,7 +20,6 @@ section.header {
     height: 995px;
 
     background-image: url("media/bcmag_chromatic_collab.jpg");
-
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: 1180px;
@@ -49,6 +47,7 @@ section.main-content-area {
 
     .about-us {
         height: 1400px;
+
         background-image: url("media/bc_codirectors.jpg"), url("media/dog_buttercup.jpg");
         background-repeat: no-repeat;
         background-size: auto, 385px;
@@ -59,23 +58,42 @@ section.main-content-area {
 
     .spread {
         height: 1000px;
+
         background-image: url("media/issue2_hiring_spread.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position-y: 125px;
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: 125px;
+            height: 300px;
+        }
     }
 
     .issues {
         height: 1750px;
+
         background-image: url("media/issue1_spring2025_cover_insta.jpg"), url("media/issue1_spring2025_collage_ziploc.jpg");
         background-repeat: no-repeat;
         background-size: 830px, 545px;
         background-position-x: -210px, 1230px;
         background-position-y: 150px, 725px;
     }
+
+
 }
 
-/* move to heading-styles.css if necessary*/
+section.footer {
+    height: 100px;
+
+    img {
+        /*was gonna make it black and white but im getting tired*/
+    }
+}
+
+/* make and move to heading-styles.css if necessary*/
 p {
     font-weight: 600;
     text-transform: uppercase;

@@ -5,20 +5,17 @@
     <title>Buttercup Magazine</title>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="stylesheet.css">
-    <!--I wish I started this sooner because this is too fun. Now I'm
-    debating taking the higher lvl class, but I'll have to check if I have
-    room or another class. I'm already taking Spanish for fun even though
-    I already fulfilled my language lib ed requirements in high school-->
+    <!-- so tired... -->
 </head>
 <body>
 <div id="parent">
     <section class="header">
         <div>
             <nav>
-                <img src="media/bcmag_logo.jpg" height="92" width="77"/>
-                <a href="#">subscribe</a>
-                <a href="#">issues</a>
-                <a href="#">donate</a>
+                <img src="media/bcmag_logo.jpg" alt="Buttercup Magazine Logo"/>
+                <a href="#newsletter">subscribe</a>
+                <a href="issues.html">issues</a>
+                <a href="mailto:buttercupmag@gmail.com">contact us</a>
             </nav>
 
             <h1>The Buttercup Magazine</h1>
@@ -47,9 +44,7 @@
         </div>
 
         <div class="spread">
-            <img src="media/bcmag_graffiti_paper.png"
-                 style="display: block; margin-left: auto; margin-right: 125px; height: 300px;"
-                 alt="Handwritten Buttercup Magazine on Paper"/>
+            <img src="media/bcmag_graffiti_paper.png" alt="Handwritten Buttercup Magazine on Paper"/>
         </div>
 
         <div class="issues">
@@ -77,18 +72,37 @@
                 Aenean euismod, nulla eget cursus malesuada, diam neque scelerisque tortor, id suscipit velit purus vel
                 elit.
             </p>
+
+            <a href="artists.html">artists</a>
+            <!-- i forgot to think about where this goes so it lives here now -->
         </div>
 
         <div>
-            forum???????????????
+            <form action="/signup" method="POST">
+                <fieldset>
+                    <legend id="newsletter">Join Our Newsletter</legend>
+
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="name" required>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Sign Up</button>
+                </fieldset>
+            </form>
         </div>
     </section>
 
     <section class="footer">
         <nav>
-            <a href="#">follow us</a>
-            idk some links to the socials
-            <img src="media/bcmag_logo.jpg" height="92" width="77"/>
+            follow us
+            <a href="#">idk some links to the socials</a>
+
+            <img src="media/bcmag_logo.jpg" alt="Buttercup Magazine Logo"/>
         </nav>
     </section>
 </div>
